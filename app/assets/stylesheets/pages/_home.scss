@@ -1,1 +1,62 @@
 // Specific CSS for your home-page
+.first-banner {
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgb(90, 87, 87);
+    text-align: center;
+    display: grid;
+
+      h1{
+        color: white;
+        font-size: 90px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font: bold;
+        margin-top: 100px;
+      }
+
+      h3 {
+        color: white;
+        opacity: 0.9;
+        margin: 0 10px;
+      }
+
+      h4{
+        color: rgb(255, 255, 255);
+        opacity: .7;
+      }
+
+     .buttons-first{
+        padding: 40px ;
+        background-color: #16C79A;
+        text-decoration: none;
+        color: white;
+        &:hover{
+        background-color: #1de2b1;
+      }
+    }
+  }
+
+  .slider-wrapper {
+  font-size: 30px;
+  color:#aaa;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+
+.products-section{
+ text-align: center;
+}
+
+.depositions{
+  text-align: center;
+}
