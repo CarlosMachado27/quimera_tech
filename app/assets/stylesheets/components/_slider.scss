@@ -1,0 +1,44 @@
+.slider-text1 {
+  background-color: lightgreen;
+  animation: slide 5s linear infinite;
+
+}
+.slider-text2 {
+  background-color: skyblue;
+}
+.slider-text3 {
+  background-color: lightcoral;
+}
+
+.slider div {
+  color:#fff;
+  height: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.slider{
+  height: 60px;
+  width: 160px ;
+  padding-left:15px;
+  overflow: hidden;   /* hide the text outside the slider div area */
+}
+
+@keyframes slide {
+  0% {margin-top:-300px;}
+  33% {margin-top:-200px;}
+  66% {margin-top:-100px;}
+  100% {margin-top:0px;}
+}
+
+@keyframes slide {
+  0% {margin-top:-300px;}
+  5% {margin-top:-200px;}  /* 5% delay */
+  33% {margin-top:-200px;}
+  38% {margin-top:-100px;} /* 5% delay */
+  66% {margin-top:-100px;}
+  71% {margin-top:0px;} /* 5% delay */
+  100% {margin-top:0px;}
+}
